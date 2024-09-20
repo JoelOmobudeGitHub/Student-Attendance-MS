@@ -1,0 +1,72 @@
+@{
+    ViewData["Title"] = "About";
+}
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - StudentAttendanceManagementSystem</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    
+</head>
+
+<body>
+    <header class="container-fluid sticky-top px-0">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-info border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">SAMS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
+                        </li>
+                       
+                    </ul>
+                     <partial name="_LoginPartial" />
+                    
+                  
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <hr>
+
+    <div class="mb-3"> <h1 style="text-align: center; padding-top: 5%;"> About Us</h1>
+    
+            <div style="padding: 10%; font-size: large; font-family: monospace ; font-style: oblique; font-weight: 500;">
+            <p>Welcome to the Job Placement/Internship Student Attendance Management System! Our project is dedicated to providing educational 
+                institutions with a reliable, efficient, and user-friendly platform for monitoring student attendance during internships and job placements. 
+            </p>
+
+            <p>Built using the ASP.NET Core MVC Framework and SQLite, our system enables supervisors to track students participation, 
+                record daily job activities, and assess performance seamlessly.</p>
+                
+            <p>By offering a cost-effective alternative to traditional attendance tracking systems, 
+                we aim to enhance the overall experience for both students and institutions, ensuring accurate and timely data management.
+            </p>
+
+        </div>
+    </div>
+
+    <footer class="border-top footer text-muted bg-info">
+        <div class="container">
+            &copy; @DateTime.Now.Year - Student Attendance Management System - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+</body>
+</html>

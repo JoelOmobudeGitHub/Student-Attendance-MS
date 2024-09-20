@@ -1,0 +1,71 @@
+
+@model StudentAttendanceManagementSystem.Models.Authentication.SupervisorRegistration
+
+@{
+    Layout = "_Layout";
+}
+<!DOCTYPE html>
+<html>
+
+
+<body>
+    <div class="registration-form">
+        <form asp-action="Create" asp-controller="Supervisor" method="post">
+         
+            <div class="form-group">
+                <input asp-for="CompanyName" type="text" class="form-control item" id="companyName" placeholder="Company name">
+            </div>
+             <span asp-validation-for="CompanyName" class="text-danger"></span>
+
+            <div class="form-group">
+                <input asp-for="FirstName" type="text" class="form-control item" id="companyName" placeholder="First name">
+            </div>
+             <span asp-validation-for="FirstName" class="text-danger"></span>
+
+            <div class="form-group">
+                <input asp-for="LastName" type="text" class="form-control item" id="companyName" placeholder="Last name">
+            </div>
+             <span asp-validation-for="LastName" class="text-danger"></span>
+
+            <div class="form-group">
+                <input asp-for="UserName" type="text" class="form-control item" id="username" placeholder="username">
+            </div>
+              <span asp-validation-for="UserName" class="text-danger"></span>
+             <div class="form-group">
+                <input asp-for="Email" type="text" class="form-control item" id="email" placeholder="Email">
+            </div>
+              <span asp-validation-for="Email" class="text-danger"></span>
+           
+            <div class="form-group">
+                <input asp-for="Phone" type="text" class="form-control item" id="phone" placeholder="Phone Number">
+            </div>
+              <span asp-validation-for="Phone" class="text-danger"></span>
+            <div class="form-group">
+                <input asp-for="Address" type="text" class="form-control item" id="address" placeholder="Address">
+            </div>
+              <span asp-validation-for="Address" class="text-danger"></span>
+
+            <div class="form-group">
+                <input asp-for="AdminId" type="text" class="form-control item" id="AdminId" value=@ViewBag.id placeholder="Admin Username">
+            </div>
+            
+            <div class="form-group">
+                <input asp-for="Password" type="password" class="form-control item" id="password" placeholder="Password">
+            </div>
+             <p style="color: #ff0000;">Password must contain alphanumeric, number, character and a minimum of 8 digits</p>
+              <span asp-validation-for="Password" class="text-danger"></span>
+            <div class="form-group">
+                <button type="submit" class="btn mt-3 btn-success" type="button" >Create Account</button>
+            </div>
+        </form>
+
+         <div class="flex">
+            
+             <a class="btn mt-5 btn-info" asp-area="" asp-controller="Admin" asp-route-id="@ViewBag.id" asp-action="Index">Go back</a>
+        </div>
+     
+   
+    </div>
+   
+</body>
+</html>

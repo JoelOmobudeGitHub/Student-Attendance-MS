@@ -1,0 +1,162 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - StudentAttendanceManagementSystem</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    
+</head>
+<body>
+    <header class="container-fluid sticky-top px-0">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-info border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">SAMS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Supervisor" asp-action="Register" asp-route-id="@ViewBag.user.UserName">Supervisor</a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Student" asp-action="Register" asp-route-id="@ViewBag.user.UserName">Student</a>
+                        </li>
+
+                        <partial name="_LoginPartial" />
+                    
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <hr>
+
+    <section style="background-color: #eee;">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col">
+            <nav aria-label="breadcrumb" class="bg-body-tertiary rounded-3 p-3 mb-4">
+              <ol class="breadcrumb mb-0"></ol>
+                <h1 class="breadcrumb-item active b-info" aria-current="page" style="text-align: center; color: rgb(239, 8, 8); font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 550;">ADMIN BLOCK</h1>
+              </ol>
+            </nav>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card mb-4">
+              <div class="card-body text-center">
+              
+                <h5 class="my-3">@ViewBag.user.UserName</h5>
+                <p class="text-muted mb-1">@ViewBag.user.Email</p>
+                <p class="text-muted mb-4">@ViewBag.user.Address</p>
+              
+              </div>
+            </div>
+      
+          </div>
+          <div class="col-lg-8">
+            <div class="card mb-4">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <p class="mb-0">Username</p>
+                  </div>
+                  <div class="col-sm-9">
+                    <p class="text-muted mb-0">@ViewBag.user.UserName</p>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col-sm-3">
+                    <p class="mb-0">First Name</p>
+                  </div>
+                  <div class="col-sm-9">
+                    <p class="text-muted mb-0">@ViewBag.user.FirstName</p>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col-sm-3">
+                    <p class="mb-0">Last Name</p>
+                  </div>
+                  <div class="col-sm-9">
+                    <p class="text-muted mb-0">@ViewBag.user.LastName</p>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col-sm-3">
+                    <p class="mb-0">Mobile</p>
+                  </div>
+                  <div class="col-sm-9">
+                    <p class="text-muted mb-0">@ViewBag.user.PhoneNumber</p>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col-sm-3">
+                    <p class="mb-0">Address</p>
+                  </div>
+                  <div class="col-sm-9">
+                    <p class="text-muted mb-0">@ViewBag.user.Address</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card mb-4 mb-md-0">
+                  <div class="card-body">
+                    <p class="mb-4"><span style="font-size: x-large; color: rgb(239, 8, 8); font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 750;">TO DO LIST</span> 
+                    </p>
+                    <a asp-area="" asp-controller="Attendance" asp-action="AdminSupervisorList"  asp-route-id="@ViewBag.user.UserName"  class="mb-1" style="font-size: large; font-weight: 700;">View Attendance</a><br>
+                  
+                    <a asp-area="" asp-controller="Complaint" asp-action="AdminSupervisorList"  asp-route-id="@ViewBag.user.UserName"  class="mt-4 mb-1" style="font-size: large; font-weight: 700;">View Complaint</a><br>
+                    
+                    <a asp-area="" asp-controller="JobReport" asp-action="AdminSupervisorList" asp-route-id="@ViewBag.user.UserName" class="mt-4 mb-1" style="font-size: large; font-weight: 700;">View Job Report</a><br>
+                    
+                    <a asp-area="" asp-controller="Remark" asp-action="AdminSupervisorList" asp-route-id="@ViewBag.user.UserName" class="mt-4 mb-1" style="font-size: large; font-weight: 700;">View Remark</a><br>
+                    
+                    <a asp-area="" asp-controller="StudentReport" asp-action="AdminSupervisorList" asp-route-id="@ViewBag.user.UserName" class="mt-4 mb-1" style="font-size: large; font-weight: 700;">Student Report</a> <br>
+
+                      <a asp-area="" asp-controller="Supervisor" asp-action="List" asp-route-id="@ViewBag.user.UserName" class="mt-4 mb-1" style="font-size: large; font-weight: 700;">View / Delete Student</a><br>
+
+                     <a asp-area="" asp-controller="Supervisor" asp-action="List" asp-route-id="@ViewBag.user.UserName" class="mt-4 mb-1" style="font-size: large; font-weight: 700;">View / Delete Supervisor</a>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="border-top footer text-muted bg-info">
+        <div class="container">
+            &copy; @DateTime.Now.Year - Student Attendance Management System - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+</body>
+</html>

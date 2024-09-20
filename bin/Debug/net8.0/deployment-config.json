@@ -1,0 +1,9 @@
+[{
+    "name": "server-1",
+    "ip": "3.235.192.82",
+    "username": "ubuntu",
+    "port": "22",
+    "beforeHooks": "",
+    "afterHooks": "",
+    "path": "/var/www/html/studentmanagement"
+}]

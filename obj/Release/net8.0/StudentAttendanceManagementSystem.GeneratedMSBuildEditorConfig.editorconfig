@@ -1,0 +1,199 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = StudentAttendanceManagementSystem
+build_property.RootNamespace = StudentAttendanceManagementSystem
+build_property.ProjectDir = C:\StudentAttendanceManagementSystem\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\StudentAttendanceManagementSystem
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/StudentAttendanceManagementSystem/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Admin/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5caW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Attendance/AdminStudentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxBZG1pblN0dWRlbnRMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Attendance/AdminSupervisorList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxBZG1pblN1cGVydmlzb3JMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Attendance/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Attendance/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Complaint/AdminStudentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGxhaW50XEFkbWluU3R1ZGVudExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Complaint/AdminSupervisorList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGxhaW50XEFkbWluU3VwZXJ2aXNvckxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Complaint/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGxhaW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Complaint/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGxhaW50XExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Complaint/View.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGxhaW50XFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Error/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/JobReport/AdminSupervisorList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iUmVwb3J0XEFkbWluU3VwZXJ2aXNvckxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/JobReport/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iUmVwb3J0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/JobReport/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iUmVwb3J0XExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/JobReport/View.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iUmVwb3J0XFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Password/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc3dvcmRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Remark/AdminStudentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVtYXJrXEFkbWluU3R1ZGVudExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Remark/AdminSupervisorList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVtYXJrXEFkbWluU3VwZXJ2aXNvckxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Remark/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVtYXJrXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Remark/StudentView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVtYXJrXFN0dWRlbnRWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Remark/View.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVtYXJrXFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/StudentReport/AdminStudentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFJlcG9ydFxBZG1pblN0dWRlbnRMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/StudentReport/AdminSupervisorList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFJlcG9ydFxBZG1pblN1cGVydmlzb3JMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/StudentReport/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFJlcG9ydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/StudentReport/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFJlcG9ydFxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/StudentReport/View.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFJlcG9ydFxWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Student/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Student/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Student/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Supervisor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJ2aXNvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Supervisor/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJ2aXNvclxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Supervisor/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJ2aXNvclxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/StudentAttendanceManagementSystem/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-axm7brqcjq

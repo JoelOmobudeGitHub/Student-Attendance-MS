@@ -1,0 +1,117 @@
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - StudentAttendanceManagementSystem</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    
+</head>
+<body>
+   <header class="container-fluid sticky-top px-0">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-info border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">SAMS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
+                        </li>
+                     
+                       
+                    </ul>
+                     <partial name="_LoginPartial" />
+                    
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <hr>
+
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <h5 class="card-title" style="color: rgb(239, 8, 8); font-size: xx-large;">Student List <span class="text-muted fw-normal ms-2"></span></h5>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex flex-wrap align-items-center justify-content-end gap-2 mb-3">
+                   
+                
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="">
+                    <div class="table-responsive">
+                        <table class="table project-list-table table-nowrap align-middle table-borderless">
+                            <thead>
+                                <tr>
+                                
+                                    <th scope="col">Id</th>
+                                    <th scope="col">First Name</th>
+                                    <th scope="col">Last Name</th>
+                                    <th scope="col">Phone</th>
+                                    <th scope="col">Email</th>
+                                     <th scope="col">Delete</th>
+                                
+        
+                                </tr>
+                            </thead>
+                            <tbody>
+                    
+                                @foreach(var user in @ViewBag.users){
+                                    
+                                <tr>
+                                
+                                    <td><span class=" badge-soft-info mb-0">@user.Id</span></td>
+                                    <td><span class=" badge-soft-success mb-0">@user.FirstName</span></td>
+                                    <td><span class=" badge-soft-success mb-0">@user.LastName</span></td>
+                                    <td><span class=" badge-soft-success mb-0">@user.PhoneNumber</span></td>
+                                    <td><span class=" badge-soft-success mb-0">@user.Email</span></td>
+                                    <td><a asp-area="" asp-controller="Student" asp-action="Delete" asp-route-id="@user.UserName"><span  class=" badge-soft-danger mb-0">Delete</span></a></td>
+                                
+                                
+                                
+                                </tr>
+                            
+                            
+                            }</tbody>
+                        </table>
+
+                          
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="border-top footer text-muted bg-info">
+        <div class="container">
+            &copy; @DateTime.Now.Year - Student Attendance Management System - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+
+       
+</body>
+</html>
