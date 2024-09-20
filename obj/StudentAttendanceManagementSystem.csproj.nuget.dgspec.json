@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/aiyasomosmacpro/Downloads/student-management-main /StudentAttendanceManagementSystem.csproj": {}
+    "/Users/aiyasomosmacpro/Desktop/FInal Year Project/Final Project Submission/student-management-main /StudentAttendanceManagementSystem.csproj": {}
   },
   "projects": {
-    "/Users/aiyasomosmacpro/Downloads/student-management-main /StudentAttendanceManagementSystem.csproj": {
+    "/Users/aiyasomosmacpro/Desktop/FInal Year Project/Final Project Submission/student-management-main /StudentAttendanceManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/aiyasomosmacpro/Downloads/student-management-main /StudentAttendanceManagementSystem.csproj",
+        "projectUniqueName": "/Users/aiyasomosmacpro/Desktop/FInal Year Project/Final Project Submission/student-management-main /StudentAttendanceManagementSystem.csproj",
         "projectName": "StudentAttendanceManagementSystem",
-        "projectPath": "/Users/aiyasomosmacpro/Downloads/student-management-main /StudentAttendanceManagementSystem.csproj",
+        "projectPath": "/Users/aiyasomosmacpro/Desktop/FInal Year Project/Final Project Submission/student-management-main /StudentAttendanceManagementSystem.csproj",
         "packagesPath": "/Users/aiyasomosmacpro/.nuget/packages/",
-        "outputPath": "/Users/aiyasomosmacpro/Downloads/student-management-main /obj/",
+        "outputPath": "/Users/aiyasomosmacpro/Desktop/FInal Year Project/Final Project Submission/student-management-main /obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/aiyasomosmacpro/.nuget/NuGet/NuGet.Config"

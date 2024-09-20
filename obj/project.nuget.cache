@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6cJNg+GSjzObTc5p5VmXfWuiXR9jMJSH2rKUQAgWfu6HC1r+xtCYHc1U2RiQZcNWiifwQOfC6aYZg1r2EjWvRg==",
+  "dgSpecHash": "Yw4X0bZDLyaK0SVFRLe5UNcOJHo9zIJCdcWE9ir6CfMiBjEOyBxgm3j9iwbSSliDWMruXYAt3hVFB6Fm6aYFgg==",
   "success": true,
-  "projectFilePath": "/Users/aiyasomosmacpro/Downloads/student-management-main /StudentAttendanceManagementSystem.csproj",
+  "projectFilePath": "/Users/aiyasomosmacpro/Desktop/FInal Year Project/Final Project Submission/student-management-main /StudentAttendanceManagementSystem.csproj",
   "expectedPackageFiles": [
     "/Users/aiyasomosmacpro/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/aiyasomosmacpro/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
