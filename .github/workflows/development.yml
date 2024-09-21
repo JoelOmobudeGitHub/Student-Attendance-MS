@@ -3,7 +3,7 @@ run-name: ${{github.actor}} is testing out Github Actions
 on:
   push:
     branches:
-      - Joel
+      - main
 env:
   AZURE_WEBAPP_NAME: aspnet-core-sample-deploy  # set this to your application's name
   AZURE_WEBAPP_PACKAGE_PATH: './published'      # set this to the path to your web app project, defaults to the repository root
