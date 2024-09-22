@@ -5,5 +5,5 @@
     "port": "22",
     "beforeHooks": "",
     "afterHooks": "",
-    "path": "/var/www/html/StudentAttendanceMS"
+    "path": "/var/www/html/Student-Attendance-MS"
 }]
