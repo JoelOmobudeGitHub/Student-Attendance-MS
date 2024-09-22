@@ -37,3 +37,4 @@
 /Users/aiyasomosmacpro/Desktop/FInal Year Project/Final Project Submission/student-management-main /obj/Debug/net8.0/StudentAttendanceManagementSystem.pdb
 /Users/aiyasomosmacpro/Desktop/FInal Year Project/Final Project Submission/student-management-main /obj/Debug/net8.0/StudentAttendanceManagementSystem.genruntimeconfig.cache
 /Users/aiyasomosmacpro/Desktop/FInal Year Project/Final Project Submission/student-management-main /obj/Debug/net8.0/ref/StudentAttendanceManagementSystem.dll
+/Users/aiyasomosmacpro/Desktop/FInal Year Project/Final Project Submission/student-management-main /obj/Debug/net8.0/StudentAttendanceManagementSystem.sourcelink.json
