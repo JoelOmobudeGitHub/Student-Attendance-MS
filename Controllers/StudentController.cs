@@ -65,6 +65,7 @@ namespace StudentAttendanceManagementSystem.Controllers
           
             foreach(var user in users){
                 var roles = await _userManager.GetRolesAsync(user);
+
                 if(roles.Contains("Supervisor")){
                     supervisors.Add(user);
                 }
@@ -103,8 +104,6 @@ namespace StudentAttendanceManagementSystem.Controllers
                     if(roles.Contains("Student")){
                     users.Add(user);
                     }
-
-                 
                 }
 
                 ViewBag.users = users;

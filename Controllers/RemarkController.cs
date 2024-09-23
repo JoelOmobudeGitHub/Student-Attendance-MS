@@ -12,7 +12,6 @@ namespace StudentAttendanceManagementSystem.Controllers
 {
     public class RemarkController : Controller
     {
-
           private readonly ApplicationDbContext context;
           private readonly SignInManager<User> signInManager;
           private readonly UserManager <User> _userManager;
@@ -22,10 +21,8 @@ namespace StudentAttendanceManagementSystem.Controllers
         this.signInManager = signInManager;
         this._userManager = _userManager;
         this.context = context;
-      
 
         }
-
 
         public async Task<IActionResult> StudentView(string Id)
         {

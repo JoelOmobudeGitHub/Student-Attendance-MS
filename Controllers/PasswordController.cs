@@ -25,9 +25,6 @@ namespace StudentAttendanceManagementSystem.Controllers
 
     }
 
-
-    
-
         public async Task<IActionResult> Index(string Id)
         {
             ViewBag.id = Id;
